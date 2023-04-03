@@ -5,6 +5,9 @@ import cookieParser from "cookie-parser";
 import compression from "compression";
 import cors from "cors";
 
+const dotenv = require("dotenv");
+dotenv.config();
+
 const app = express();
 
 app.use(
@@ -22,3 +25,5 @@ const server = http.createServer(app);
 server.listen(8080, () => {
   console.log("Server running on http://localhost:8080/");
 });
+
+const MONGO_URL = process.env.MONGO_URL;

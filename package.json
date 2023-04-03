@@ -26,8 +26,12 @@
     "typescript": "^5.0.3"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@types/lodash": "^4.14.192",
     "@types/mongoose": "^5.11.97",
+    "D": "^1.0.0",
     "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
     "mongoose": "^7.0.3"
   }
 }

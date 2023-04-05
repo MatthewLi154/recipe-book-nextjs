@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="flex justify-center mt-20">
         <img src="https://i.pinimg.com/564x/04/9b/b7/049bb76d791ec7ecf0d14a64efe99fbe.jpg"></img>
       </div>
     </>

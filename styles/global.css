@@ -10,7 +10,19 @@
 }
 
 @layer components {
+  .nav-div {
+    @apply flex flex-row justify-center w-screen py-4 border-b-4;
+  }
+
   .navbar-icon {
-    @apply px-4 py-2 font-medium cursor-pointer;
+    @apply px-6 py-2 font-medium cursor-pointer;
+  }
+
+  .login-input {
+    @apply outline border-solid mr-2;
+  }
+
+  .submit-button {
+    @apply outline border-solid mt-5 bg-red-400 w-20 h-10;
   }
 }

@@ -7,7 +7,10 @@ function Navbar() {
       <h2 className="navbar-icon">
         <Link href="/">Home</Link>
       </h2>
-      <h2 className="navbar-icon">Explore</h2>
+      <h2 className="navbar-icon">
+        <Link href="/explore">Explore</Link>
+      </h2>
+      <input className="search-bar"></input>
       <h2 className="navbar-icon">
         <Link href="/login">Login</Link>
       </h2>

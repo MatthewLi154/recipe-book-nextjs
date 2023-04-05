@@ -15,7 +15,11 @@
   }
 
   .navbar-icon {
-    @apply px-6 py-2 font-medium cursor-pointer;
+    @apply px-6 py-2 font-medium text-xl cursor-pointer hover:font-bold;
+  }
+
+  .search-bar {
+    @apply outline outline-slate-200 hover:outline-slate-400 border-solid  w-2/5 rounded-lg m-1 px-3;
   }
 
   .login-input {

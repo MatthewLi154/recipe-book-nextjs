@@ -23,10 +23,14 @@
   }
 
   .login-input {
-    @apply outline border-solid mr-2;
+    @apply outline border-solid m-2;
+  }
+
+  .button-container {
+    @apply flex flex-row;
   }
 
   .submit-button {
-    @apply outline border-solid mt-5 bg-red-400 w-20 h-10;
+    @apply outline flex justify-center border-solid bg-red-400 w-20 h-10 m-2;
   }
 }

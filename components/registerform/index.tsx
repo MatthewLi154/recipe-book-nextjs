@@ -16,7 +16,7 @@ function RegisterForm() {
         <input type="text" className="login-input"></input>
         <span>Confirm Password</span>
         <input type="text" className="login-input"></input>
-        <div>
+        <div className="button-container">
           <button className="submit-button">Submit</button>
           <button className="submit-button">Already a user?</button>
         </div>

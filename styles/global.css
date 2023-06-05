@@ -31,6 +31,6 @@
   }
 
   .submit-button {
-    @apply outline flex justify-center border-solid bg-red-400 w-20 h-10 m-2;
+    @apply outline-slate-200 flex justify-center items-center border-solid bg-blue-200 w-20 h-20 m-2 rounded;
   }
 }

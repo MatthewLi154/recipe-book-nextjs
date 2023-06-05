@@ -27,7 +27,7 @@
   }
 
   .button-container {
-    @apply flex flex-row;
+    @apply flex flex-row m-2;
   }
 
   .submit-button {

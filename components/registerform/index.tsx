@@ -20,6 +20,9 @@ function RegisterForm() {
           <button className="submit-button">Submit</button>
           <button className="submit-button">Already a user?</button>
         </div>
+        <div>
+          Hello
+        </div>
       </form>
     </>
   );
